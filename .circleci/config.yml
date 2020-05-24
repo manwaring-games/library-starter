@@ -27,7 +27,7 @@ workflows:
 
       # main tag
       - publish:
-          context: codenames-ci
+          context: games-ci
           requires: [node/test]
           filters:
             branches:
